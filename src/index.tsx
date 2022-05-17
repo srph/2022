@@ -44,7 +44,7 @@ const App = () => {
               </ProjectDetails>
 
               <ProjectThumbnail>
-                <ProjectThumbnailImage src={project.thumbnail} />
+                <ProjectThumbnailImage src={project.thumbnail.desktop} />
               </ProjectThumbnail>
             </Project>
           )
