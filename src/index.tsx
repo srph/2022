@@ -136,7 +136,7 @@ const Project = styled.div`
   margin-bottom: 80px;
 
   @media ${theme.breakpoints.md} {
-    margin-right: 120px;
+    margin-bottom: 120px;
   }
 `
 
