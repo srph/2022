@@ -75,7 +75,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${theme.fontFamily.sans};
     font-size: ${theme.fontSizes.regular}px;
     color: ${theme.colors.neutral[900]};
-    background: ${theme.colors.neutral[50]};
+    background: ${theme.colors.bg};
   }
 `
 
@@ -91,13 +91,21 @@ const WebHeading = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-top: 32px;
-  margin-bottom: 200px;
+  margin-bottom: 64px;
+
+  @media ${theme.breakpoints.md} {
+    margin-bottom: 200px;
+  }
 `
 
 const WebHeadingTitle = styled.h1`
   margin: 0;
   font-family: ${theme.fontFamily.heading};
-  font-size: ${theme.fontSizes.regular}px;
+  font-size: ${theme.fontSizes.lg}px;
+
+  @media ${theme.breakpoints.md} {
+    font-size: ${theme.fontSizes.regular}px;
+  }
 `
 
 const WebHeadingLinks = styled.div`
@@ -106,6 +114,7 @@ const WebHeadingLinks = styled.div`
 `
 
 const WebHeadingLinkItem = styled.a`
+  display: none;
   color: ${theme.colors.neutral[500]};
   font-weight: 600;
   text-decoration: none;
@@ -117,16 +126,29 @@ const WebHeadingLinkItem = styled.a`
   &:hover {
     color: ${theme.colors.neutral[700]};
   }
+
+  @media ${theme.breakpoints.md} {
+    display: block;
+  }
 `
 
 const Project = styled.div`
-  margin-bottom: 120px;
+  margin-bottom: 80px;
+
+  @media ${theme.breakpoints.md} {
+    margin-right: 120px;
+  }
 `
 
 const ProjectDetails = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin-bottom: 32px;
+
+  @media ${theme.breakpoints.md} {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `
 
 const ProjectTitle = styled.h1`
@@ -134,7 +156,12 @@ const ProjectTitle = styled.h1`
   font-size: ${theme.fontSizes.heading}px;
   font-family: ${theme.fontFamily.heading};
   margin: 0;
-  margin-right: 16px;
+  margin-bottom: 16px;
+
+  @media ${theme.breakpoints.md} {
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
 `
 
 const ProjectInformation = styled.div`
@@ -143,7 +170,11 @@ const ProjectInformation = styled.div`
 
 const ProjectTags = styled.div`
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+
+  @media ${theme.breakpoints.md} {
+    margin-right: 16px;
+  }
 `
 
 const ProjectTagItem = styled.div`
@@ -158,8 +189,12 @@ const ProjectTagItem = styled.div`
 
 const ProjectDescription = styled.p`
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   line-height: 1.5;
+
+  @media ${theme.breakpoints.md} {
+    margin-right: 16px;
+  }
 `
 
 const ProjectLinks = styled.div`

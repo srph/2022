@@ -7,10 +7,13 @@ const theme = {
   fontSizes: {
     sm: 12,
     regular: 16,
+    lg: 24,
     heading: 48
   },
 
   colors: {
+    bg: '#fff',
+
     neutral: {
       50: '#fafafa',
       100: '#f4f4f4',
@@ -23,6 +26,10 @@ const theme = {
       800: '#27272a',
       900: '#18181b'
     }
+  },
+
+  breakpoints: {
+    md: `(min-width: 768px)`
   }
 }
 
