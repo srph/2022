@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import styled, { createGlobalStyle } from 'styled-components'
 import 'modern-normalize/modern-normalize.css'
+
 import { theme } from './theme'
 import { projects, settings } from './vars'
 
