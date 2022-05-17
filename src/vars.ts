@@ -10,7 +10,7 @@ const projects = [
     title: 'Smarf',
     description: 'Smarf is the dota hero organizer in-game recreated for the web.',
     thumbnail: {
-      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/careflix.png'
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/smarf.png'
     },
     tags: ['React', 'Laravel'],
     links: [
