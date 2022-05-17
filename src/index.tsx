@@ -12,8 +12,18 @@ const App = () => {
         <WebHeading>
           <WebHeadingTitle>Kier Borromeo</WebHeadingTitle>
           <WebHeadingLinks>
-            <WebHeadingLinkItem href={settings.urls.twitter}>Twitter</WebHeadingLinkItem>
-            <WebHeadingLinkItem href={settings.urls.twitter}>GitHub</WebHeadingLinkItem>
+            <WebHeadingLinkItem href={settings.urls.linkedin} target="_blank">
+              LinkedIn
+            </WebHeadingLinkItem>
+            <WebHeadingLinkItem href={settings.urls.twitter} target="_blank">
+              Twitter
+            </WebHeadingLinkItem>
+            <WebHeadingLinkItem href={settings.urls.twitter} target="_blank">
+              GitHub
+            </WebHeadingLinkItem>
+            <WebHeadingLinkItem href={settings.urls.resume} target="_blank">
+              Resume
+            </WebHeadingLinkItem>
           </WebHeadingLinks>
         </WebHeading>
 
@@ -100,7 +110,7 @@ const WebHeadingLinkItem = styled.a`
   text-decoration: none;
 
   &:not(:last-child) {
-    margin-right: 16px;
+    margin-right: 24px;
   }
 
   &:hover {

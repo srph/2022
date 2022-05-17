@@ -1,5 +1,7 @@
 const settings = {
   urls: {
+    resume: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/resume-2022.pdf',
+    linkedin: 'https://www.linkedin.com/in/kierb',
     twitter: 'https://twitter.com/_srph',
     github: 'https://github.com/srph'
   }
