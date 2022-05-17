@@ -35,7 +35,7 @@ const App = () => {
 
                   <ProjectLinks>
                     {project.links.map((link, i) => (
-                      <ProjectLinkItem key={i} href={link.url}>
+                      <ProjectLinkItem key={i} href={link.url} target="_blank">
                         {link.title}
                       </ProjectLinkItem>
                     ))}
@@ -80,7 +80,7 @@ const WebHeading = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-top: 32px;
-  margin-bottom: 120px;
+  margin-bottom: 200px;
 `
 
 const WebHeadingTitle = styled.h1`
@@ -96,7 +96,7 @@ const WebHeadingLinks = styled.div`
 
 const WebHeadingLinkItem = styled.a`
   color: ${theme.colors.neutral[500]};
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
 
   &:not(:last-child) {
@@ -109,9 +109,7 @@ const WebHeadingLinkItem = styled.a`
 `
 
 const Project = styled.div`
-  &:not(:last-child) {
-    margin-bottom: 80px;
-  }
+  margin-bottom: 120px;
 `
 
 const ProjectDetails = styled.div`
@@ -164,6 +162,11 @@ const ProjectLinkItem = styled.a`
   font-size: ${theme.fontSizes.sm}px;
   font-weight: 600;
   border-bottom: 1px dashed ${theme.colors.neutral[400]};
+
+  &:hover {
+    color: ${theme.colors.neutral[900]};
+    border-bottom-color: ${theme.colors.neutral[600]};
+  }
 
   &:not(:last-child) {
     margin-right: 16px;
