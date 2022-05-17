@@ -9,7 +9,9 @@ const projects = [
   {
     title: 'Smarf',
     description: 'Smarf is the dota hero organizer in-game recreated for the web.',
-    thumbnail: '',
+    thumbnail: {
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/careflix.png'
+    },
     tags: ['React', 'Laravel'],
     links: [
       {
@@ -30,7 +32,9 @@ const projects = [
   {
     title: 'Slerp Designer',
     description: 'An interactive tool to allow food store owners to customize the look of their online stores.',
-    thumbnail: '',
+    thumbnail: {
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/slerp-designer.png'
+    },
     tags: ['React', 'GraphQL'],
     links: [
       {
@@ -47,7 +51,9 @@ const projects = [
   {
     title: 'Frontend',
     description: 'Shogun Frontend is a powerful yet extensible tool in creating rich, exceptional storefronts.',
-    thumbnail: '',
+    thumbnail: {
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/frontend.png'
+    },
     tags: ['React', 'GraphQL'],
     links: [
       {
@@ -61,7 +67,9 @@ const projects = [
     title: 'Page Builder',
     description:
       'Shogun Page Builder is a drag-and-drop visual builder for ecommerce backends like Shopify and the lot.',
-    thumbnail: '',
+    thumbnail: {
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/form-builder.png'
+    },
     tags: ['React', 'Rails', 'GraphQL'],
     links: [
       {
@@ -74,7 +82,9 @@ const projects = [
   {
     title: 'Careflix',
     description: 'Careflix is a mobile-responsive Netflix clone with built-in party and features.',
-    thumbnail: '',
+    thumbnail: {
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/careflix.png'
+    },
     tags: ['React', 'Laravel'],
     links: [
       {
@@ -95,7 +105,9 @@ const projects = [
   {
     title: 'Pulse',
     description: 'An annual bullet journal that lets you keep track of your goals.',
-    thumbnail: '',
+    thumbnail: {
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/pulse.png'
+    },
     tags: ['React', 'Laravel'],
     links: [
       {
@@ -116,7 +128,9 @@ const projects = [
   {
     title: 'Form Builder',
     description: 'A drag and drop form builder based on Google Forms.',
-    thumbnail: '',
+    thumbnail: {
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/form-builder.png'
+    },
     tags: ['React'],
     links: [
       {
@@ -137,7 +151,9 @@ const projects = [
   {
     title: 'Sheena',
     description: 'Sheena is a mobile app that allows customers to redeem rewards for different stores.',
-    thumbnail: '',
+    thumbnail: {
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/sheena.png'
+    },
     tags: ['React'],
     links: [
       {
