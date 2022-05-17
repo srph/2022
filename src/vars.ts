@@ -152,7 +152,7 @@ const projects = [
   },
   {
     title: 'Sheena',
-    description: 'Sheena is allows customers to claim points and redeem rewards for different stores.',
+    description: 'Sheena allows customers to claim points and redeem rewards for different stores.',
     thumbnail: {
       desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/sheena.png'
     },
