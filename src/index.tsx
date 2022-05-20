@@ -116,7 +116,7 @@ const WebHeadingLinks = styled.div`
 const WebHeadingLinkItem = styled.a`
   display: none;
   color: ${theme.colors.neutral[500]};
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 
   &:not(:last-child) {
