@@ -179,7 +179,7 @@ const ProjectTags = styled.div`
 
 const ProjectTagItem = styled.div`
   font-size: ${theme.fontSizes.sm}px;
-  font-weight: 600;
+  font-weight: 500;
   color: ${(props) => (props.highlight ? theme.colors.neutral[900] : theme.colors.neutral[500])};
 
   &:not(:last-child) {
@@ -191,6 +191,7 @@ const ProjectDescription = styled.p`
   margin-top: 0;
   margin-bottom: 8px;
   line-height: 1.5;
+  font-weight: 500;
 
   @media ${theme.breakpoints.md} {
     margin-right: 16px;
@@ -206,7 +207,7 @@ const ProjectLinkItem = styled.a`
   text-decoration: none;
   color: ${theme.colors.neutral[700]};
   font-size: ${theme.fontSizes.sm}px;
-  font-weight: 600;
+  font-weight: 500;
   border-bottom: 1px dashed ${theme.colors.neutral[400]};
 
   &:hover {
