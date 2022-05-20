@@ -173,7 +173,7 @@ const ProjectTags = styled.div`
   margin-bottom: 8px;
 
   @media ${theme.breakpoints.md} {
-    margin-right: 16px;
+    margin-bottom: 16px;
   }
 `
 
@@ -194,7 +194,7 @@ const ProjectDescription = styled.p`
   font-weight: 500;
 
   @media ${theme.breakpoints.md} {
-    margin-right: 16px;
+    margin-bottom: 16px;
   }
 `
 
