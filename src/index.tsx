@@ -19,7 +19,7 @@ const App = () => {
             <WebHeadingLinkItem href={settings.urls.twitter} target="_blank">
               Twitter
             </WebHeadingLinkItem>
-            <WebHeadingLinkItem href={settings.urls.twitter} target="_blank">
+            <WebHeadingLinkItem href={settings.urls.github} target="_blank">
               GitHub
             </WebHeadingLinkItem>
             <WebHeadingLinkItem href={settings.urls.resume} target="_blank">
