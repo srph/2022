@@ -70,7 +70,7 @@ const projects = [
     description:
       'Shogun Page Builder is a drag-and-drop visual builder for ecommerce backends like Shopify and the lot.',
     thumbnail: {
-      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/form-builder.png'
+      desktop: 'https://caretv.sgp1.cdn.digitaloceanspaces.com/2022-website/page-builder.png'
     },
     tags: ['React', 'Rails', 'GraphQL'],
     links: [
