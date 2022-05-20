@@ -124,7 +124,7 @@ const WebHeadingLinkItem = styled.a`
   }
 
   &:hover {
-    color: ${theme.colors.neutral[700]};
+    color: ${theme.colors.neutral[900]};
   }
 
   @media ${theme.breakpoints.md} {
